@@ -39,15 +39,17 @@ class EmployeeMapClass{
 public class EmployeeMap
 {
 	public static void main(String[] args) {
-	    EmployeeMapClass em = new EmployeeMapClass();
-        em.add(new Employee(1,"Eason"));
-        em.add(new Employee(2,"Lisa"));
-        em.add(new Employee(3,"Anna"));
-        em.add(new Employee(4,"Olivia"));
-        em.add(new Employee(5,"Madelyn"));
-        em.add(new Employee(6,"Sam"));
-        em.add(new Employee(7,"Will"));
-        em.add(new Employee(8,"Johnson"));
+		
+	    	EmployeeMapClass em = new EmployeeMapClass();
+		
+		em.add(new Employee(1,"Eason"));
+		em.add(new Employee(2,"Lisa"));
+		em.add(new Employee(3,"Anna"));
+		em.add(new Employee(4,"Olivia"));
+		em.add(new Employee(5,"Madelyn"));
+		em.add(new Employee(6,"Sam"));
+		em.add(new Employee(7,"Will"));
+		em.add(new Employee(8,"Johnson"));
   
 		Scanner keyboard = new Scanner(System.in);
 		int option;
